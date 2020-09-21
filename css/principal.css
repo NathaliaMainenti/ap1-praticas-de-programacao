@@ -1,0 +1,25 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background: url("../img/will-smith.png") no-repeat top;
+}
+
+.container h1 {
+    font-size: 50px;
+}
+
+.container p {
+    font-size: 30px;
+}
+
+#text-container {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#text-container button {
+    width: 200px;
+}
